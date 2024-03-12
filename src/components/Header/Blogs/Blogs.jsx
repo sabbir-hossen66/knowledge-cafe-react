@@ -12,8 +12,8 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
-      {/* <h1>showing cafe:{blogs.length}</h1> */}
+    <div className="md:w-2/3">
+      <h1>Blogs</h1>
     </div>
   );
 };
